@@ -5,7 +5,7 @@ This repository contains the source code for my personal portfolio website.
 This is one of my hobby project and I really hope to maintain it (if possible)
 
 ### Screenshot
-![Screenshot](./images/screenshot.jpg)
+![Screenshot](./assets/images/readme/Screenshot%202024-05-05%20at%206.58.50 PM.jpg)
 
 **Features:**
 
