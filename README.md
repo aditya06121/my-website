@@ -4,9 +4,6 @@ This repository contains the source code for my personal portfolio website.
 <br>
 This is one of my hobby project and I really hope to maintain it (if possible)
 
-### Screenshot
-![Screenshot](./assets/images/readme/Screenshot%202024-05-05%20at%206.58.50 PM.jpg)
-
 **Features:**
 
 - **Clean and responsive design:** Adapts to different screen sizes and devices.

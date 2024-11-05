@@ -1,0 +1,56 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-color: #1F2937;
+    height: 85vh;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8
+}
+.title{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.subtext,.header_link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header_link{
+    text-decoration: none;
+}
+.header_link:hover{
+    color: #e5e7eb7e;
+}
+.hero_b{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+.hero_b:hover{
+    color: #3882F6;
+    background-color: #F9FAF8;
+    cursor: pointer;
+}
+.portfolio{
+    height:85vh;
+}
+.next{
+    height:70vh;
+    background-color: #E5E7EB;
+}
+footer{
+    height: 10vh;
+    background-color: #1F2937;
+}
