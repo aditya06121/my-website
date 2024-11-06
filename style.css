@@ -3,6 +3,11 @@
     font-weight: 900;
     font-style: normal;
 }
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -75,11 +80,6 @@ img{
 }
 .text{
     padding: 9% 0 0 7%;
-}
-.next{
-    display: flex;
-    min-height:70vh;
-    background-color: #E5E7EB;
 }
 .portfolioText{
     display: flex;
@@ -176,4 +176,22 @@ footer{
     align-items: center;
     color: #F9FAF8;
     size: 2em;
+}
+.next{
+    display: flex;
+    min-height:60vh;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+}
+.quote_box{
+    width: 50%;
+}
+#name_q{
+    font-weight: bold;
+}
+.quote{
+    font-style: italic;
 }
