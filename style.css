@@ -48,8 +48,6 @@
     padding: 2.5% 5% 2.5% 5%;
     font-size: 1em;
     margin: 5% 0 0 0;
-    position: relative;
-    top: 7%;
     border-radius: 0.8em;
 }
 .hero_b:hover{
@@ -78,14 +76,42 @@ img{
 .text{
     padding: 9% 0 0 7%;
 }
-.portfolio{
-    min-height:85vh;
-}
 .next{
-    height:70vh;
+    min-height:70vh;
     background-color: #E5E7EB;
 }
 footer{
     height: 10vh;
     background-color: #1F2937;
+}
+.portfolioText{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 3% 0 0 0;
+}
+.portfolio{
+    min-height: 70vh;
+}
+.lists{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+.box{
+    margin: 10px;
+    width: 200px;
+    height: 200px; 
+    padding: 0 0 5em 0; 
+    text-align: center;
+}
+.project_img{
+    border: 0.2em solid rgba(0, 0, 255, 0.424);
+    border-radius: 0.8em;
+}
+.project_img:hover{
+    border: 0.2em solid rgb(29, 29, 180);
+    border-radius: 0.8em;
 }
