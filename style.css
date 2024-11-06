@@ -3,22 +3,25 @@
     font-weight: 900;
     font-style: normal;
 }
-body{
+*{
     margin: 0;
     padding: 0;
 }
 .hero{
     background-color: #1F2937;
-    height: 85vh;
+    min-height: 85vh;
 
 }
 .navbar{
     display: flex;
-    justify-content: space-evenly;
+    gap:2em;
+    justify-content: flex-end;
+    padding: 01em;
 }
 .logo{
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin-right: auto;
 }
 .title{
     font-size: 48px;
@@ -28,8 +31,11 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
-.header_link{
+.header_link,.logo{
     text-decoration: none;
+}
+.logo:hover{
+    color: #f9faf877;
 }
 .header_link:hover{
     color: #e5e7eb7e;
@@ -37,14 +43,43 @@ body{
 .hero_b{
     background-color: #3882F6;
     color: #F9FAF8;
+    text-decoration: none;
+    position: relative;
+    padding: 2.5% 5% 2.5% 5%;
+    font-size: 1em;
+    margin: 5% 0 0 0;
+    position: relative;
+    top: 7%;
+    border-radius: 0.8em;
 }
 .hero_b:hover{
     color: #3882F6;
     background-color: #F9FAF8;
     cursor: pointer;
 }
+.texts{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 1000px){
+    .texts{
+    flex-wrap: wrap;
+    }
+}
+@media(max-width: 648px){
+    img{
+        width: 80%;
+        height: 80%;
+    }
+}
+img{
+    padding: 5% 10%;
+}
+.text{
+    padding: 9% 0 0 7%;
+}
 .portfolio{
-    height:85vh;
+    min-height:85vh;
 }
 .next{
     height:70vh;
