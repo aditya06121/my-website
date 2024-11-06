@@ -77,12 +77,9 @@ img{
     padding: 9% 0 0 7%;
 }
 .next{
+    display: flex;
     min-height:70vh;
     background-color: #E5E7EB;
-}
-footer{
-    height: 10vh;
-    background-color: #1F2937;
 }
 .portfolioText{
     display: flex;
@@ -114,4 +111,66 @@ footer{
 .project_img:hover{
     border: 0.2em solid rgb(29, 29, 180);
     border-radius: 0.8em;
+}
+.contact_me{
+    height:40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    background-color: rgba(0, 0, 255, 0.665);
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+    position: relative;
+    top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact_text{
+    color:#E5E7EB;
+    margin-left: 2em;
+    font-size: 1.5em;
+}
+#clickb{
+    border:#ffffff solid 0.19em;
+    text-decoration: none;
+    position: relative; 
+    width: fit-content;
+    border-radius: 18px;
+    padding: 12px;
+    position: absolute;
+    top: 5em;
+    right: 5em;
+    color: #ffffff;
+}
+#clickb:hover{
+    border: #0041a9;
+    background-color:#0041a9;
+    color: #E5E7EB;
+}
+@media(max-width: 865px){
+    #clickb{
+        position: relative;
+        top: 0;
+        left: 4em;
+
+    }
+}
+@media(max-width: 516px){
+    .contact{
+        width: 70%;
+        height: 75%;
+    }
+    .contact_text{
+        margin-left: 1em;
+    }
+}
+footer{
+    height: 10vh;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
